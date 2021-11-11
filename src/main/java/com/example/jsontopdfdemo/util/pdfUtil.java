@@ -40,7 +40,7 @@ public class pdfUtil {
 
         //清单
         PdfPTable presListTable = new PdfPTable(10);
-        int presWidth[] = {8, 10, 20, 8, 10, 10, 8, 8, 8, 8};
+        int[] presWidth = {8, 10, 20, 8, 10, 10, 8, 8, 8, 8};
         presListTable.setWidths(presWidth);
         presListTable.setWidthPercentage(100);
         pdfPCell.setHorizontalAlignment(PdfPCell.ALIGN_CENTER);
